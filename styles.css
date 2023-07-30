@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Basic&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700&family=Hammersmith+One&family=Lobster&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  body{
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+  }
+
+/*=================================================================================================*/
+/*=================================================================================================*/
+  
+.bg_img{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    
+}
+
+.box{
+    position: absolute;
+    height: 9vw;
+    width: 30%;
+    top: 19.5vh;
+    bottom: 100px;
+    background-color: black;
+    opacity: 50% ;
+    
+}
+
+.heading{
+    position:absolute;
+    font-family: 'Hammersmith One',sans-serif;
+    left: 4vh;
+    font-size: 100px;
+    color: white;
+    bottom:65vh;
+    
+}
+
+.info_box{
+    position: relative;
+    background-color: #f5f4f4;
+    height: 35vh;
+    width: 70%;
+    left: 30%;
+    bottom: 62vh;
+}
+/*=================================================================================================*/
+/*                              TEXTS                                                               */            
+/*=================================================================================================*/
+.info1{
+    position: absolute;
+    font-family: 'Basic';
+    font-size: 32px;
+    top:6%;
+    right:0;
+    left:34%
+}
+
+.head2{
+    position: absolute;
+    font-family: 'EB Garamond';
+    font-size: 30px;
+    font-stretch: expanded;
+    right: 0;
+    left:34%;
+    bottom: 56vh;   
+}
+/*=================================================================================================*/
+/*            MAIN CONTAINER                                                                        */
+/*=================================================================================================*/
+.inner_container{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 46%;
+    left: 36%;
+    height: 7vh;
+    width: 40vw;
+    display: flex;
+    gap: 300px;
+} 
+
+/*=================================================================================================*/
+/*          TEXTBOXES */
+/*=================================================================================================*/
+
+#first-name,#email,#password{
+    background-color: #C4A484;
+    border: 2px solid white;
+    box-shadow: 0px 4px 4px black;
+    height: 37px;
+    width: 210px;
+}
+#last-name,#phone,#cn_password{
+    background-color: #B6CEB5;
+    border: 2px solid white;
+    box-shadow: 0px 4px 4px black;
+    height: 37px;
+    width: 210px;
+}
+#first-name:focus,#email:focus,#password:focus{
+    background-color:antiquewhite;
+    border: 2px solid black;
+}
+
+#last-name:focus,#phone:focus,#cn_password:focus{
+    background-color:#e4f5e1;
+    border: 2px solid black;
+}
+
+/*=================================================================================================*/
+ /*           SUB-CONTAINERS AND POSITIONING                                                          */
+/*=================================================================================================*/
+label
+{   
+    font-family: 'Basic';
+    font-size: 23px;
+}
+.info_2{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 80px;
+    display: flex;
+    gap: 300px;
+}
+.info_3{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 160px;
+    display: flex;
+    gap: 300px;
+}
+/*=================================================================================================*/
+/*                                BOTTOM BUTTONS AND TEXTS                          */
+/*=================================================================================================*/
+.bottom_container{
+    position: absolute;
+    bottom: 80px;
+    left:34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.bottom_container button{
+  background-color: white;
+  color: black;
+  height: 66px;
+  width: 295px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.bottom_container button{
+    font-family: 'Hammersmith One';
+    font-size: 33px;
+}
+.bottom_container button:hover{
+    background-color: black;
+    color: white;
+}
+.bottom_container p{
+    font-family: 'EB Garamond';
+    font-size: 27px; 
+}
+.bottom_container span{
+    color: #450000;
+}
+.bottom_container span:hover{
+    color:indigo;
+}
